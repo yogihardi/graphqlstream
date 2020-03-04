@@ -1,0 +1,5 @@
+type Subscription {
+  Ticker: String! @isAuthenticated
+}
+
+directive @isAuthenticated on FIELD_DEFINITION
